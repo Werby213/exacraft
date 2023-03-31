@@ -29,20 +29,6 @@
           "src/main/java/net/mcreator/exacraft/item/SteelIngotItem.java"
         ]
       }
-    },
-    {
-      "name": "Exrecord1",
-      "type": "musicdisc",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exrecord_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/exacraft/item/Exrecord1Item.java",
-          "src/main/resources/assets/exacraft/models/item/exrecord_1.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -60,16 +46,12 @@
     "ru_ru": {
       "subtitles.in_the_hall_of_the_mountain_king": "In the Hall Of The Mountain King",
       "block.exacraft.block_of_steel": "Стальной блок",
-      "item.exacraft.steel_ingot": "Стальной слиток",
-      "item.exacraft.exrecord_1.desc": "Hall of The Mountain King",
-      "item.exacraft.exrecord_1": "Hall of The Mountain King"
+      "item.exacraft.steel_ingot": "Стальной слиток"
     },
     "en_us": {
       "subtitles.in_the_hall_of_the_mountain_king": "In the Hall Of The Mountain King",
       "block.exacraft.block_of_steel": "Steel Block",
-      "item.exacraft.steel_ingot": "Steel Ingot",
-      "item.exacraft.exrecord_1.desc": "Hall of The Mountain King",
-      "item.exacraft.exrecord_1": "Hall of The Mountain King"
+      "item.exacraft.steel_ingot": "Steel Ingot"
     }
   },
   "foldersRoot": {

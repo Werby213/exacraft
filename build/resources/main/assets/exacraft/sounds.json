@@ -1,0 +1,12 @@
+{
+  "in_the_hall_of_the_mountain_king": {
+    "category": "record",
+    "subtitle": "subtitles.in_the_hall_of_the_mountain_king",
+    "sounds": [
+      {
+        "name": "exacraft:musopen_-_in_the_hall_of_the_mountain_king",
+        "stream": true
+      }
+    ]
+  }
+}

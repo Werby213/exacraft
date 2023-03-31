@@ -1,0 +1,19 @@
+{
+  "_fv": 39,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Hall of The Mountain King",
+    "texture": "ec_record_1",
+    "description": "Hall of The Mountain King",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:in_the_hall_of_the_mountain_king"
+    },
+    "lengthInTicks": 3,
+    "analogOutput": 0
+  }
+}

@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.exacraft.init.ExacraftModSounds;
 import net.mcreator.exacraft.init.ExacraftModItems;
 import net.mcreator.exacraft.init.ExacraftModBlocks;
 
@@ -50,7 +51,7 @@ public class ExacraftMod {
 		MinecraftForge.EVENT_BUS.register(this);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		ExacraftModSounds.REGISTRY.register(bus);
 		ExacraftModBlocks.REGISTRY.register(bus);
 		ExacraftModItems.REGISTRY.register(bus);
 
