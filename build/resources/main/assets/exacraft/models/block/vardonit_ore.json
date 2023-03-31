@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "exacraft:blocks/вардонит_ore",
-    "particle": "exacraft:blocks/вардонит_ore"
+    "all": "exacraft:blocks/vardonit_ore",
+    "particle": "exacraft:blocks/vardonit_ore"
   },
   "render_type": "solid"
 }

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "вардонит_pickaxe",
+    "texture": "vardonit_pickaxe",
     "customModelName": "Normal",
     "name": "Вардонит Pickaxe",
     "specialInfo": [],
@@ -11,12 +11,12 @@
       "value": "TOOLS"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 2,
-    "efficiency": 6.0,
+    "harvestLevel": 4,
+    "efficiency": 8.5,
     "attackSpeed": 1.0,
     "enchantability": 14,
     "damageVsEntity": 2.0,
-    "usageCount": 250,
+    "usageCount": 1500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

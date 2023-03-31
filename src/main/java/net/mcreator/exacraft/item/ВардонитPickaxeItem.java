@@ -14,11 +14,11 @@ public class ВардонитPickaxeItem extends PickaxeItem {
 	public ВардонитPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 1500;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 8.5f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -26,7 +26,7 @@ public class ВардонитPickaxeItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 2;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {

@@ -78,7 +78,6 @@ public class ExacraftModItems {
 	public static final RegistryObject<Item> ELIEKTRONIT_BLOCK = block(ExacraftModBlocks.ELIEKTRONIT_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> VARDONIT_ORE = block(ExacraftModBlocks.VARDONIT_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> VARDONIT_BLOCK = block(ExacraftModBlocks.VARDONIT_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> PLASTAL_ORE = block(ExacraftModBlocks.PLASTAL_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> PLASTAL_BLOCK = block(ExacraftModBlocks.PLASTAL_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> OVERWORLD_EC = REGISTRY.register("overworld_ec", () -> new Overworld_ecItem());
 	public static final RegistryObject<Item> URAN_INGOT = REGISTRY.register("uran_ingot", () -> new УранIngotItem());

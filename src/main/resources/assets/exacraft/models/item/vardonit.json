@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "exacraft:items/вардонит_gem"
+    "layer0": "exacraft:items/vardonit_gem"
   }
 }

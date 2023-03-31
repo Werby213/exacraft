@@ -14,8 +14,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
-import net.mcreator.exacraft.init.ExacraftModItems;
-
 public abstract class ВардонитArmorItem extends ArmorItem {
 	public ВардонитArmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
@@ -36,12 +34,12 @@ public abstract class ВардонитArmorItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_iron"));
 			}
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(ExacraftModItems.VARDONIT.get()));
+				return Ingredient.EMPTY;
 			}
 
 			@Override
@@ -51,12 +49,12 @@ public abstract class ВардонитArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 1.5f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.1f;
 			}
 		}, slot, properties);
 	}

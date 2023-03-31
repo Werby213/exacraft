@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "рубин_gem",
+    "texture": "rubin_gem",
     "customModelName": "Normal",
     "name": "Рубин",
     "rarity": "COMMON",

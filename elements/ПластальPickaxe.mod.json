@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "пласталь_pickaxe",
+    "texture": "plastal_pickaxe",
     "customModelName": "Normal",
     "name": "Пласталь Pickaxe",
     "specialInfo": [],
@@ -11,12 +11,12 @@
       "value": "TOOLS"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 2,
-    "efficiency": 6.0,
-    "attackSpeed": 1.0,
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.5,
     "enchantability": 14,
-    "damageVsEntity": 2.0,
-    "usageCount": 250,
+    "damageVsEntity": 3.5,
+    "usageCount": 1500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

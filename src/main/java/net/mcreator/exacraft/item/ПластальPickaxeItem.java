@@ -14,19 +14,19 @@ public class ПластальPickaxeItem extends PickaxeItem {
 	public ПластальPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 1500;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 9f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 1.5f;
 			}
 
 			public int getLevel() {
-				return 2;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
@@ -36,6 +36,6 @@ public class ПластальPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ExacraftModItems.PLASTAL_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -2.5f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }

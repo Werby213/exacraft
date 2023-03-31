@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "exacraft:items/вардонит_sword"
+    "layer0": "exacraft:items/vardonit_sword"
   }
 }

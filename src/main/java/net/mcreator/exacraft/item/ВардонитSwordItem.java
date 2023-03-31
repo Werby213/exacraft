@@ -18,15 +18,15 @@ public class ВардонитSwordItem extends SwordItem {
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 8.5f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 6f;
 			}
 
 			public int getLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {

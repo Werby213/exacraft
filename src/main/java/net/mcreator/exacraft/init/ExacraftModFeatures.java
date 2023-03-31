@@ -17,7 +17,6 @@ import net.mcreator.exacraft.world.features.ores.ТорийOreFeature;
 import net.mcreator.exacraft.world.features.ores.ТитанOreFeature;
 import net.mcreator.exacraft.world.features.ores.СвинецOreFeature;
 import net.mcreator.exacraft.world.features.ores.РубинOreFeature;
-import net.mcreator.exacraft.world.features.ores.ПластальOreFeature;
 import net.mcreator.exacraft.world.features.ores.ОсмийOreFeature;
 import net.mcreator.exacraft.world.features.ores.ВардонитOreFeature;
 import net.mcreator.exacraft.world.features.ores.АлюминийOreFeature;
@@ -40,6 +39,5 @@ public class ExacraftModFeatures {
 	public static final RegistryObject<Feature<?>> TITAN_ORE = REGISTRY.register("titan_ore", ТитанOreFeature::feature);
 	public static final RegistryObject<Feature<?>> ELIEKTRONIT_ORE = REGISTRY.register("eliektronit_ore", ЭлектронитOreFeature::feature);
 	public static final RegistryObject<Feature<?>> VARDONIT_ORE = REGISTRY.register("vardonit_ore", ВардонитOreFeature::feature);
-	public static final RegistryObject<Feature<?>> PLASTAL_ORE = REGISTRY.register("plastal_ore", ПластальOreFeature::feature);
 	public static final RegistryObject<Feature<?>> OSMII_ORE = REGISTRY.register("osmii_ore", ОсмийOreFeature::feature);
 }

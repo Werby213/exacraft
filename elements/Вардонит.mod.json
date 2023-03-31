@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "вардонит_gem",
+    "texture": "vardonit_gem",
     "customModelName": "Normal",
     "name": "Вардонит",
-    "rarity": "COMMON",
+    "rarity": "RARE",
     "creativeTab": {
-      "value": "MISC"
+      "value": "MATERIALS"
     },
     "stackSize": 64,
     "enchantability": 0,

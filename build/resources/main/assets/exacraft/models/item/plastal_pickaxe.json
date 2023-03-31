@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "exacraft:items/пласталь_pickaxe"
+    "layer0": "exacraft:items/plastal_pickaxe"
   }
 }

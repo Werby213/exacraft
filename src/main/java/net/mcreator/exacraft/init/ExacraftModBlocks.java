@@ -22,7 +22,6 @@ import net.mcreator.exacraft.block.СвинецOreBlock;
 import net.mcreator.exacraft.block.СвинецBlockBlock;
 import net.mcreator.exacraft.block.РубинOreBlock;
 import net.mcreator.exacraft.block.РубинBlockBlock;
-import net.mcreator.exacraft.block.ПластальOreBlock;
 import net.mcreator.exacraft.block.ПластальBlockBlock;
 import net.mcreator.exacraft.block.ОсмийOreBlock;
 import net.mcreator.exacraft.block.ОсмийBlockBlock;
@@ -64,7 +63,6 @@ public class ExacraftModBlocks {
 	public static final RegistryObject<Block> ELIEKTRONIT_BLOCK = REGISTRY.register("eliektronit_block", () -> new ЭлектронитBlockBlock());
 	public static final RegistryObject<Block> VARDONIT_ORE = REGISTRY.register("vardonit_ore", () -> new ВардонитOreBlock());
 	public static final RegistryObject<Block> VARDONIT_BLOCK = REGISTRY.register("vardonit_block", () -> new ВардонитBlockBlock());
-	public static final RegistryObject<Block> PLASTAL_ORE = REGISTRY.register("plastal_ore", () -> new ПластальOreBlock());
 	public static final RegistryObject<Block> PLASTAL_BLOCK = REGISTRY.register("plastal_block", () -> new ПластальBlockBlock());
 	public static final RegistryObject<Block> OSMII_ORE = REGISTRY.register("osmii_ore", () -> new ОсмийOreBlock());
 	public static final RegistryObject<Block> OSMII_BLOCK = REGISTRY.register("osmii_block", () -> new ОсмийBlockBlock());

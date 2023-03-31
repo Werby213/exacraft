@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "exacraft:blocks/рубин_ore",
-    "particle": "exacraft:blocks/рубин_ore"
+    "all": "exacraft:blocks/rubin_ore",
+    "particle": "exacraft:blocks/rubin_ore"
   },
   "render_type": "solid"
 }

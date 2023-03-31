@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.exacraft.init.ExacraftModSounds;
+import net.mcreator.exacraft.init.ExacraftModMenus;
 import net.mcreator.exacraft.init.ExacraftModItems;
 import net.mcreator.exacraft.init.ExacraftModFeatures;
 import net.mcreator.exacraft.init.ExacraftModBlocks;
@@ -57,6 +58,8 @@ public class ExacraftMod {
 		ExacraftModItems.REGISTRY.register(bus);
 
 		ExacraftModFeatures.REGISTRY.register(bus);
+
+		ExacraftModMenus.REGISTRY.register(bus);
 
 	}
 

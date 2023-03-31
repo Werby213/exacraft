@@ -14,19 +14,19 @@ public class ВардонитShovelItem extends ShovelItem {
 	public ВардонитShovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 1500;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 8.5f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 1f;
 			}
 
 			public int getLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {
