@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "exacraft:uran_ore"
+  },
+  "result": "exacraft:uran_ingot"
+}

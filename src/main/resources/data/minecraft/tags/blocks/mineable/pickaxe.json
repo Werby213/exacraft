@@ -1,6 +1,32 @@
 {
   "replace": false,
   "values": [
-    "exacraft:block_of_steel"
+    "exacraft:block_of_steel",
+    "exacraft:overworld_ec_ore",
+    "exacraft:overworld_ec_block",
+    "exacraft:uran_ore",
+    "exacraft:uran_block",
+    "exacraft:torii_ore",
+    "exacraft:torii_block",
+    "exacraft:rubin_ore",
+    "exacraft:rubin_block",
+    "exacraft:aliuminii_ore",
+    "exacraft:aliuminii_block",
+    "exacraft:osmii_ore",
+    "exacraft:osmii_block",
+    "exacraft:sviniets_ore",
+    "exacraft:sviniets_block",
+    "exacraft:lead_ore",
+    "exacraft:lead_block",
+    "exacraft:nickel_ore",
+    "exacraft:nickel_block",
+    "exacraft:titan_ore",
+    "exacraft:titan_block",
+    "exacraft:eliektronit_ore",
+    "exacraft:eliektronit_block",
+    "exacraft:vardonit_ore",
+    "exacraft:vardonit_block",
+    "exacraft:plastal_ore",
+    "exacraft:plastal_block"
   ]
 }

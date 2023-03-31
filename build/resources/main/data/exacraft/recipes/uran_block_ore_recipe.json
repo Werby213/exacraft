@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exacraft:uran_block"
+    }
+  ],
+  "result": {
+    "item": "exacraft:uran_ingot",
+    "count": 9
+  }
+}

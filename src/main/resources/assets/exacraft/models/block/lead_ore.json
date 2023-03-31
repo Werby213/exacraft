@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exacraft:blocks/lead_ore",
+    "particle": "exacraft:blocks/lead_ore"
+  },
+  "render_type": "solid"
+}

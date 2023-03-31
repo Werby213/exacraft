@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exacraft:torii"
+    },
+    "1": {
+      "item": "exacraft:torii"
+    },
+    "2": {
+      "item": "exacraft:torii"
+    },
+    "3": {
+      "item": "exacraft:torii"
+    },
+    "4": {
+      "item": "exacraft:torii"
+    },
+    "5": {
+      "item": "exacraft:torii"
+    },
+    "6": {
+      "item": "exacraft:torii"
+    },
+    "7": {
+      "item": "exacraft:torii"
+    },
+    "8": {
+      "item": "exacraft:torii"
+    }
+  },
+  "result": {
+    "item": "exacraft:torii_block",
+    "count": 1
+  }
+}

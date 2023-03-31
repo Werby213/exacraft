@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "exacraft:plastal_ingot"
+    },
+    "2": {
+      "item": "exacraft:plastal_ingot"
+    },
+    "3": {
+      "item": "exacraft:plastal_ingot"
+    },
+    "5": {
+      "item": "exacraft:plastal_ingot"
+    }
+  },
+  "result": {
+    "item": "exacraft:plastal_armor_boots",
+    "count": 1
+  }
+}

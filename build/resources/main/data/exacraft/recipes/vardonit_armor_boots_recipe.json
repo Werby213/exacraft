@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "exacraft:vardonit"
+    },
+    "2": {
+      "item": "exacraft:vardonit"
+    },
+    "3": {
+      "item": "exacraft:vardonit"
+    },
+    "5": {
+      "item": "exacraft:vardonit"
+    }
+  },
+  "result": {
+    "item": "exacraft:vardonit_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exacraft:lead_block"
+    }
+  ],
+  "result": {
+    "item": "exacraft:lead_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exacraft:rubin_block"
+    }
+  ],
+  "result": {
+    "item": "exacraft:rubin",
+    "count": 9
+  }
+}

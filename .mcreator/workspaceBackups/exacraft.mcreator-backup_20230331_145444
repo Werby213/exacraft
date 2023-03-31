@@ -1,0 +1,688 @@
+{
+  "mod_elements": [
+    {
+      "name": "BlockOfSteel",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/block/block_of_steel.json",
+          "src/main/java/net/mcreator/exacraft/block/BlockOfSteelBlock.java",
+          "src/main/resources/assets/exacraft/blockstates/block_of_steel.json",
+          "src/main/resources/assets/exacraft/models/item/block_of_steel.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/item/steel_ingot.json",
+          "src/main/java/net/mcreator/exacraft/item/SteelIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Exrecord1",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exrecord_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exacraft/item/Exrecord1Item.java",
+          "src/main/resources/assets/exacraft/models/item/exrecord_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Overworld_ec",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_ec",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/item/overworld_ec.json",
+          "src/main/java/net/mcreator/exacraft/item/Overworld_ecItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Overworld_ecOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_ec_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/blockstates/overworld_ec_ore.json",
+          "src/main/java/net/mcreator/exacraft/block/Overworld_ecOreBlock.java",
+          "src/main/java/net/mcreator/exacraft/world/features/ores/Overworld_ecOreFeature.java",
+          "src/main/resources/assets/exacraft/models/item/overworld_ec_ore.json",
+          "src/main/resources/assets/exacraft/models/block/overworld_ec_ore.json",
+          "src/main/resources/data/exacraft/forge/biome_modifier/overworld_ec_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Overworld_ecBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_ec_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exacraft/block/Overworld_ecBlockBlock.java",
+          "src/main/resources/assets/exacraft/models/item/overworld_ec_block.json",
+          "src/main/resources/assets/exacraft/models/block/overworld_ec_block.json",
+          "src/main/resources/assets/exacraft/blockstates/overworld_ec_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Overworld_ecOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_ec_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/overworld_ec_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Overworld_ecBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_ec_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/overworld_ec_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Overworld_ecOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "overworld_ec_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/overworld_ec_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "УранIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uran_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/item/uran_ingot.json",
+          "src/main/java/net/mcreator/exacraft/item/УранIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "УранOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uran_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/block/uran_ore.json",
+          "src/main/resources/data/exacraft/forge/biome_modifier/uran_ore_biome_modifier.json",
+          "src/main/resources/assets/exacraft/models/item/uran_ore.json",
+          "src/main/java/net/mcreator/exacraft/block/УранOreBlock.java",
+          "src/main/resources/assets/exacraft/blockstates/uran_ore.json",
+          "src/main/java/net/mcreator/exacraft/world/features/ores/УранOreFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "УранBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uran_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exacraft/block/УранBlockBlock.java",
+          "src/main/resources/assets/exacraft/models/block/uran_block.json",
+          "src/main/resources/assets/exacraft/models/item/uran_block.json",
+          "src/main/resources/assets/exacraft/blockstates/uran_block.json"
+        ]
+      }
+    },
+    {
+      "name": "УранOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uran_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/uran_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "УранBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uran_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/uran_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "УранOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uran_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/uran_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Торий",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torii",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/item/torii.json",
+          "src/main/java/net/mcreator/exacraft/item/ТорийItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ТорийOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torii_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/blockstates/torii_ore.json",
+          "src/main/resources/assets/exacraft/models/item/torii_ore.json",
+          "src/main/java/net/mcreator/exacraft/world/features/ores/ТорийOreFeature.java",
+          "src/main/java/net/mcreator/exacraft/block/ТорийOreBlock.java",
+          "src/main/resources/assets/exacraft/models/block/torii_ore.json",
+          "src/main/resources/data/exacraft/forge/biome_modifier/torii_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "ТорийBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torii_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/block/torii_block.json",
+          "src/main/java/net/mcreator/exacraft/block/ТорийBlockBlock.java",
+          "src/main/resources/assets/exacraft/models/item/torii_block.json",
+          "src/main/resources/assets/exacraft/blockstates/torii_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ТорийOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torii_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/torii_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ТорийBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torii_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/torii_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ТорийOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "torii_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/torii_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Рубин",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exacraft/item/РубинItem.java",
+          "src/main/resources/assets/exacraft/models/item/rubin.json"
+        ]
+      }
+    },
+    {
+      "name": "РубинOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/block/rubin_ore.json",
+          "src/main/java/net/mcreator/exacraft/world/features/ores/РубинOreFeature.java",
+          "src/main/resources/data/exacraft/forge/biome_modifier/rubin_ore_biome_modifier.json",
+          "src/main/resources/assets/exacraft/blockstates/rubin_ore.json",
+          "src/main/resources/assets/exacraft/models/item/rubin_ore.json",
+          "src/main/java/net/mcreator/exacraft/block/РубинOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "РубинBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubin_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/item/rubin_block.json",
+          "src/main/resources/assets/exacraft/blockstates/rubin_block.json",
+          "src/main/java/net/mcreator/exacraft/block/РубинBlockBlock.java",
+          "src/main/resources/assets/exacraft/models/block/rubin_block.json"
+        ]
+      }
+    },
+    {
+      "name": "РубинOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubin_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/rubin_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "РубинBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubin_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/rubin_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "РубинOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubin_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/rubin_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "АлюминийIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aliuminii_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exacraft/item/АлюминийIngotItem.java",
+          "src/main/resources/assets/exacraft/models/item/aliuminii_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "АлюминийOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aliuminii_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/block/aliuminii_ore.json",
+          "src/main/java/net/mcreator/exacraft/world/features/ores/АлюминийOreFeature.java",
+          "src/main/resources/assets/exacraft/blockstates/aliuminii_ore.json",
+          "src/main/java/net/mcreator/exacraft/block/АлюминийOreBlock.java",
+          "src/main/resources/assets/exacraft/models/item/aliuminii_ore.json",
+          "src/main/resources/data/exacraft/forge/biome_modifier/aliuminii_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "АлюминийBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aliuminii_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/item/aliuminii_block.json",
+          "src/main/java/net/mcreator/exacraft/block/АлюминийBlockBlock.java",
+          "src/main/resources/assets/exacraft/blockstates/aliuminii_block.json",
+          "src/main/resources/assets/exacraft/models/block/aliuminii_block.json"
+        ]
+      }
+    },
+    {
+      "name": "АлюминийOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aliuminii_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/aliuminii_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "АлюминийBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aliuminii_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/aliuminii_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "АлюминийOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aliuminii_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/aliuminii_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Осмий",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmii",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/item/osmii.json",
+          "src/main/java/net/mcreator/exacraft/item/ОсмийItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ОсмийOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmii_ore"
+    },
+    {
+      "name": "ОсмийBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmii_block"
+    },
+    {
+      "name": "ОсмийOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmii_ore_block_recipe"
+    },
+    {
+      "name": "ОсмийBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmii_block_ore_recipe"
+    },
+    {
+      "name": "ОсмийOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmii_ore_smelting"
+    },
+    {
+      "name": "ОсмийIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osmii_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exacraft/item/ОсмийIngotItem.java",
+          "src/main/resources/assets/exacraft/models/item/osmii_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "СвинецIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sviniets_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exacraft/item/СвинецIngotItem.java",
+          "src/main/resources/assets/exacraft/models/item/sviniets_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "СвинецOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sviniets_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/models/item/sviniets_ore.json",
+          "src/main/resources/assets/exacraft/blockstates/sviniets_ore.json",
+          "src/main/resources/data/exacraft/forge/biome_modifier/sviniets_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/exacraft/block/СвинецOreBlock.java",
+          "src/main/java/net/mcreator/exacraft/world/features/ores/СвинецOreFeature.java",
+          "src/main/resources/assets/exacraft/models/block/sviniets_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "СвинецBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sviniets_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exacraft/blockstates/sviniets_block.json",
+          "src/main/resources/assets/exacraft/models/block/sviniets_block.json",
+          "src/main/java/net/mcreator/exacraft/block/СвинецBlockBlock.java",
+          "src/main/resources/assets/exacraft/models/item/sviniets_block.json"
+        ]
+      }
+    },
+    {
+      "name": "СвинецOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sviniets_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/sviniets_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "СвинецBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sviniets_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/sviniets_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "СвинецOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sviniets_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exacraft/recipes/sviniets_ore_smelting.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "in_the_hall_of_the_mountain_king",
+      "files": [
+        "musopen_-_in_the_hall_of_the_mountain_king"
+      ],
+      "category": "record",
+      "subtitle": "In the Hall Of The Mountain King"
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "block.exacraft.rubin_block": "Block of Рубин",
+      "block.exacraft.torii_block": "Block of Торий",
+      "block.exacraft.rubin_ore": "Рубин Ore",
+      "block.exacraft.block_of_steel": "Стальной блок",
+      "block.exacraft.osmii_ore": "Осмий Ore",
+      "item.exacraft.osmii_ingot": "Осмий",
+      "item.exacraft.aliuminii_ingot": "Алюминий",
+      "block.exacraft.uran_block": "Block of Уран",
+      "block.exacraft.overworld_ec_ore": "Overworld_ec Ore",
+      "block.exacraft.aliuminii_ore": "Алюминий Ore",
+      "block.exacraft.osmii_block": "Block of Осмий",
+      "item.exacraft.rubin": "Рубин",
+      "block.exacraft.aliuminii_block": "Block of Алюминий",
+      "item.exacraft.exrecord_1": "Hall of The Mountain King",
+      "subtitles.in_the_hall_of_the_mountain_king": "In the Hall Of The Mountain King",
+      "item.exacraft.overworld_ec": "Overworld_ec",
+      "item.exacraft.exrecord_1.desc": "Hall of The Mountain King",
+      "block.exacraft.sviniets_block": "Block of Свинец",
+      "item.exacraft.sviniets_ingot": "Свинец",
+      "item.exacraft.torii": "Торий",
+      "block.exacraft.overworld_ec_block": "Block of Overworld_ec",
+      "item.exacraft.uran_ingot": "Уран",
+      "item.exacraft.steel_ingot": "Стальной слиток",
+      "block.exacraft.torii_ore": "Торий Ore",
+      "block.exacraft.sviniets_ore": "Свинец Ore",
+      "item.exacraft.osmii": "Осмий",
+      "block.exacraft.uran_ore": "Уран Ore"
+    },
+    "en_us": {
+      "block.exacraft.rubin_block": "Block of Рубин",
+      "block.exacraft.torii_block": "Block of Торий",
+      "block.exacraft.rubin_ore": "Рубин Ore",
+      "block.exacraft.block_of_steel": "Steel Block",
+      "block.exacraft.osmii_ore": "Осмий Ore",
+      "item.exacraft.osmii_ingot": "Осмий",
+      "item.exacraft.aliuminii_ingot": "Алюминий",
+      "block.exacraft.uran_block": "Block of Уран",
+      "block.exacraft.overworld_ec_ore": "Overworld_ec Ore",
+      "block.exacraft.aliuminii_ore": "Алюминий Ore",
+      "block.exacraft.osmii_block": "Block of Осмий",
+      "item.exacraft.rubin": "Рубин",
+      "block.exacraft.aliuminii_block": "Block of Алюминий",
+      "item.exacraft.exrecord_1": "Hall of The Mountain King",
+      "subtitles.in_the_hall_of_the_mountain_king": "In the Hall Of The Mountain King",
+      "item.exacraft.overworld_ec": "Overworld_ec",
+      "item.exacraft.exrecord_1.desc": "Hall of The Mountain King",
+      "block.exacraft.sviniets_block": "Block of Свинец",
+      "item.exacraft.sviniets_ingot": "Свинец",
+      "item.exacraft.torii": "Торий",
+      "block.exacraft.overworld_ec_block": "Block of Overworld_ec",
+      "item.exacraft.uran_ingot": "Уран",
+      "item.exacraft.steel_ingot": "Steel Ingot",
+      "block.exacraft.torii_ore": "Торий Ore",
+      "block.exacraft.sviniets_ore": "Свинец Ore",
+      "item.exacraft.osmii": "Осмий",
+      "block.exacraft.uran_ore": "Уран Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "exacraft",
+    "modName": "exacraft",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.exacraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

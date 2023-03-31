@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class BlockOfSteelBlock extends Block {
 	public BlockOfSteelBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(8f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class BlockOfSteelBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 3;
+			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}
 

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exacraft:osmii_ingot"
+    },
+    "1": {
+      "item": "exacraft:osmii_ingot"
+    },
+    "2": {
+      "item": "exacraft:osmii_ingot"
+    },
+    "3": {
+      "item": "exacraft:osmii_ingot"
+    },
+    "4": {
+      "item": "exacraft:osmii_ingot"
+    },
+    "5": {
+      "item": "exacraft:osmii_ingot"
+    },
+    "6": {
+      "item": "exacraft:osmii_ingot"
+    },
+    "7": {
+      "item": "exacraft:osmii_ingot"
+    },
+    "8": {
+      "item": "exacraft:osmii_ingot"
+    }
+  },
+  "result": {
+    "item": "exacraft:osmii_block",
+    "count": 1
+  }
+}

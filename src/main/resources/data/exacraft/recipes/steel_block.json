@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "exacraft:steel_ingot"
+    },
+    "1": {
+      "item": "exacraft:steel_ingot"
+    },
+    "2": {
+      "item": "exacraft:steel_ingot"
+    },
+    "3": {
+      "item": "exacraft:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "exacraft:block_of_steel",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exacraft:rubin"
+    },
+    "1": {
+      "item": "exacraft:rubin"
+    },
+    "2": {
+      "item": "exacraft:rubin"
+    },
+    "3": {
+      "item": "exacraft:rubin"
+    },
+    "4": {
+      "item": "exacraft:rubin"
+    },
+    "5": {
+      "item": "exacraft:rubin"
+    },
+    "6": {
+      "item": "exacraft:rubin"
+    },
+    "7": {
+      "item": "exacraft:rubin"
+    },
+    "8": {
+      "item": "exacraft:rubin"
+    }
+  },
+  "result": {
+    "item": "exacraft:rubin_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exacraft:eliektronit_block"
+    }
+  ],
+  "result": {
+    "item": "exacraft:eliektronit_dust",
+    "count": 9
+  }
+}

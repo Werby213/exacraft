@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exacraft:blocks/overworld_ec_ore",
+    "particle": "exacraft:blocks/overworld_ec_ore"
+  },
+  "render_type": "solid"
+}

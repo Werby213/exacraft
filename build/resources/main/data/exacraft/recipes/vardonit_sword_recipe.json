@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "exacraft:vardonit"
+    },
+    "1": {
+      "item": "exacraft:vardonit"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "exacraft:vardonit_sword",
+    "count": 1
+  }
+}

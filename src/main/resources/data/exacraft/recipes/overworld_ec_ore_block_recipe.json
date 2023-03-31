@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exacraft:overworld_ec"
+    },
+    "1": {
+      "item": "exacraft:overworld_ec"
+    },
+    "2": {
+      "item": "exacraft:overworld_ec"
+    },
+    "3": {
+      "item": "exacraft:overworld_ec"
+    },
+    "4": {
+      "item": "exacraft:overworld_ec"
+    },
+    "5": {
+      "item": "exacraft:overworld_ec"
+    },
+    "6": {
+      "item": "exacraft:overworld_ec"
+    },
+    "7": {
+      "item": "exacraft:overworld_ec"
+    },
+    "8": {
+      "item": "exacraft:overworld_ec"
+    }
+  },
+  "result": {
+    "item": "exacraft:overworld_ec_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "exacraft:blocks/пласталь_ore",
+    "particle": "exacraft:blocks/пласталь_ore"
+  },
+  "render_type": "solid"
+}

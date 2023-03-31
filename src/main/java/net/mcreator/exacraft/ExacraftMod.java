@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.exacraft.init.ExacraftModSounds;
 import net.mcreator.exacraft.init.ExacraftModItems;
+import net.mcreator.exacraft.init.ExacraftModFeatures;
 import net.mcreator.exacraft.init.ExacraftModBlocks;
 
 import java.util.function.Supplier;
@@ -54,6 +55,8 @@ public class ExacraftMod {
 		ExacraftModSounds.REGISTRY.register(bus);
 		ExacraftModBlocks.REGISTRY.register(bus);
 		ExacraftModItems.REGISTRY.register(bus);
+
+		ExacraftModFeatures.REGISTRY.register(bus);
 
 	}
 

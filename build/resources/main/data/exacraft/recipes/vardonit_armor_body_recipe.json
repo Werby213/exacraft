@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "exacraft:vardonit"
+    },
+    "2": {
+      "item": "exacraft:vardonit"
+    },
+    "3": {
+      "item": "exacraft:vardonit"
+    },
+    "4": {
+      "item": "exacraft:vardonit"
+    },
+    "5": {
+      "item": "exacraft:vardonit"
+    },
+    "6": {
+      "item": "exacraft:vardonit"
+    },
+    "7": {
+      "item": "exacraft:vardonit"
+    },
+    "8": {
+      "item": "exacraft:vardonit"
+    }
+  },
+  "result": {
+    "item": "exacraft:vardonit_armor_chestplate",
+    "count": 1
+  }
+}

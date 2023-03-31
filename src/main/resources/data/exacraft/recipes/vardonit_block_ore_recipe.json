@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "exacraft:vardonit_block"
+    }
+  ],
+  "result": {
+    "item": "exacraft:vardonit",
+    "count": 9
+  }
+}
