@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "exacraft:blocks/steelblock",
+    "up": "exacraft:blocks/steelblock",
+    "north": "exacraft:blocks/steelblock",
+    "east": "exacraft:blocks/steelblock",
+    "south": "exacraft:blocks/steelblock",
+    "west": "exacraft:blocks/steelblock",
+    "particle": "exacraft:blocks/steelblock"
+  },
+  "render_type": "solid"
+}
